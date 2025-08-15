@@ -1,67 +1,214 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julianne Joyce-Hunt | Business Intelligence & Data Analytics</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: auto;
-            line-height: 1.6;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .contact a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Julianne Joyce-Hunt | BI & Analytics Leader</title>
+  <meta name="description" content="Julianne Joyce-Hunt — Business Intelligence & Analytics leader specializing in healthcare, risk/compliance, and modern data stacks." />
+  <style>
+    :root{
+      --bg:#0b1020; --bg-2:#0f1430; --card:#121733; --ink:#edf0ff; --muted:#b7c0ff;
+      --accent:#7aa2ff; --accent-2:#9bffde; --ring:rgba(122,162,255,.35);
+      --radius:16px; --shadow:0 14px 40px rgba(0,0,0,.25);
+      --max:1000px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0}
+    body{
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      background: linear-gradient(180deg,var(--bg),var(--bg-2) 50%, #0a0e22 100%);
+      color: var(--ink);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--max); margin:0 auto; padding:28px}
+    header{display:grid; grid-template-columns:1fr auto; gap:16px; align-items:center; margin-bottom:18px}
+    .brand h1{margin:0; font-size:1.6rem}
+    .brand p{margin:4px 0 0; color:var(--muted); font-size:.98rem}
+    .nav a{margin-left:14px; font-weight:600}
+    .hero{
+      border:1px solid var(--ring);
+      border-radius:var(--radius);
+      background: linear-gradient(145deg, rgba(122,162,255,.12), rgba(155,255,222,.10));
+      box-shadow: var(--shadow);
+      padding:28px;
+      margin-bottom:18px;
+    }
+    .hero h2{margin:0 0 10px; font-size:1.9rem}
+    .hero p{margin:0; color:var(--muted)}
+    .btns{display:flex; flex-wrap:wrap; gap:10px; margin-top:14px}
+    .btn{
+      display:inline-flex; align-items:center; gap:8px; padding:10px 14px;
+      border-radius:12px; border:1px solid var(--ring);
+      background: rgba(255,255,255,.04); color:var(--ink); font-weight:600;
+    }
+    .btn:hover{background: rgba(255,255,255,.08)}
+    .grid{display:grid; grid-template-columns:repeat(12,1fr); gap:16px}
+    section.card{
+      grid-column:1/-1;
+      background: linear-gradient(145deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:var(--radius);
+      padding:22px;
+      box-shadow: var(--shadow);
+      margin-bottom:16px;
+    }
+    h3{margin:0 0 8px; font-size:1.15rem}
+    ul{margin:8px 0 0 20px; padding:0}
+    li{margin:6px 0}
+    .cols{display:grid; grid-template-columns:repeat(12,1fr); gap:16px}
+    .col-6{grid-column:span 6}
+    .col-4{grid-column:span 4}
+    .col-8{grid-column:span 8}
+    .stack{display:flex; flex-wrap:wrap; gap:8px; margin-top:6px}
+    .pill{
+      display:inline-block; padding:6px 10px; border-radius:999px;
+      border:1px solid rgba(255,255,255,.18); background:rgba(255,255,255,.06);
+      font-size:.9rem;
+    }
+    .meta{color:var(--muted); font-size:.95rem}
+    footer{color:#9aa6ff80; text-align:center; margin:22px 0 8px; font-size:.9rem}
+    @media (max-width:800px){
+      .nav{display:none}
+      .col-6,.col-4,.col-8{grid-column:1/-1}
+      .hero h2{font-size:1.6rem}
+    }
+    /* Light mode (optional) — uncomment to force light scheme
+    body{background:#f7f8ff; color:#0c1330}
+    section.card, .hero{background:white; border-color:#e6e9ff; color:#0c1330}
+    a{color:#2a58ff}
+    .pill{background:#f3f5ff; border-color:#e6e9ff}
+    */
+  </style>
 </head>
 <body>
-    <h1>Julianne Joyce-Hunt</h1>
-    <h3>Business Intelligence Manager | Analytics Leader | Data Expert</h3>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <h1>Julianne Joyce-Hunt</h1>
+        <p class="meta">Business Intelligence Manager / Analytics Leader • Healthcare, Risk & Compliance • Remote (US)</p>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-    <div class="contact">
-        <p>Email: <a href="mailto:julijhunt@gmail.com">julijhunt@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/julianne-joyce-hunt-85ab082" target="_blank">linkedin.com/in/julianne-joyce-hunt-85ab082</a></p>
+    <div class="hero">
+      <h2>Turning complex data into decisions.</h2>
+      <p>I build trustworthy analytics—dashboards, experiments, governance, and AI-assisted insights—so leaders can act with confidence. Focus areas: healthcare, risk/compliance, fraud analytics, and modern data stacks.</p>
+      <div class="btns">
+        <a class="btn" href="mailto:julijhunt@gmail.com" aria-label="Email Julianne">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/julianne-joyce-hunt-85ab082" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="RESUME_PDF_LINK" target="_blank" rel="noopener">Download Résumé (PDF)</a>
+      </div>
     </div>
 
-    <div class="section">
-        <h2>About Me</h2>
-        <p>
-            I am a Business Intelligence & Data Analytics leader with over 8 years of experience building 
-            high-impact analytics solutions, leading data teams, and delivering actionable insights 
-            that drive strategic decisions. My expertise spans SQL, cloud data warehouses, BI tools, 
-            data governance, and AI/ML integration.
-        </p>
-    </div>
+    <section id="about" class="card">
+      <h3>About</h3>
+      <p>I lead analytics teams that ship measurable impact: faster decisions, lower risk, and clearer accountability. Recent work includes launching a cloud DW (Azure/Snowflake), setting governance standards with Microsoft Purview, building A/B testing programs, and delivering fraud/risk dashboards. I partner closely with Clinical/Operations, Finance, Legal/Compliance, and Product.</p>
+      <div class="stack" aria-label="Key skills">
+        <span class="pill">SQL</span><span class="pill">Python</span><span class="pill">Tableau</span>
+        <span class="pill">Power BI</span><span class="pill">Looker</span><span class="pill">Snowflake</span>
+        <span class="pill">Azure Synapse</span><span class="pill">dbt</span><span class="pill">Airflow</span>
+        <span class="pill">Microsoft Purview</span><span class="pill">HIPAA / GDPR</span>
+        <span class="pill">A/B Testing</span><span class="pill">Fraud & Risk Analytics</span><span class="pill">Data Governance</span>
+      </div>
+    </section>
 
-    <div class="section">
-        <h2>Key Skills</h2>
-        <ul>
-            <li>Advanced SQL, Data Modeling, ETL Optimization</li>
-            <li>Tableau, Power BI, Looker, Data Visualization</li>
-            <li>Azure, Snowflake, BigQuery, Cloud Data Warehousing</li>
-            <li>Data Governance & Compliance (HIPAA, GDPR)</li>
-            <li>Team Leadership & Cross-Functional Collaboration</li>
-        </ul>
-    </div>
+    <section id="experience" class="card">
+      <h3>Experience</h3>
+      <div class="cols">
+        <div class="col-6">
+          <strong>Business Intelligence Manager</strong> — Collaborative Solutions (2021–2024)
+          <ul>
+            <li>Launched the firm’s first cloud DW (Azure + SQL); improved reliability & reduced reporting errors.</li>
+            <li>Set governance & metadata standards (Purview) and delivered exec dashboards tied to KPIs & risk.</li>
+            <li>Led ETL optimization (+52% refresh speed) and ML-assisted anomaly detection.</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <strong>Owner / Consultant</strong> — JJH Reporting & Analytics (2013–present)
+          <ul>
+            <li>Full-time since Aug 2024; enterprise BI & governance for regulated clients (healthcare/finance).</li>
+            <li>Built automated reporting, reducing regulated filings prep by 100+ hours/year.</li>
+            <li>Designed risk dashboards, KPI frameworks, and modern stack rollouts (dbt/Airflow/Snowflake).</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <strong>Senior Business Analyst</strong> — Premera Blue Cross (2018–2021)
+          <ul>
+            <li>Integrated 23+ data sources for HIPAA-aligned analytics; value-based care & operational KPIs.</li>
+            <li>Built Tableau/Looker reporting that reduced high-cost escalations & improved engagement.</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <strong>Senior Data Analyst</strong> — Launch Consulting (2021)
+          <ul>
+            <li>Scrum Master; delivered governance-aligned BI features and secure KPI pipelines.</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <strong>Business Analysis Consultant</strong> — Comcast (2017–2018)
+          <ul>
+            <li>Optimized BI platforms & financial/ops reporting for compliance and audit readiness.</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <strong>BI Consultant</strong> — Getty Images (2016–2017)
+          <ul>
+            <li>Implemented global analytics tag governance; standardized privacy-safe reporting.</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <strong>Senior Business Reporting Analyst</strong> — Starbucks (2013–2016)
+          <ul>
+            <li>Automated EEO compliance reporting; reduced cycle time from 8 weeks to 4 hours.</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <strong>Principal Consultant</strong> — Society Consulting (2013)
+          <ul>
+            <li>Delivered BI modernization with governance controls for enterprise clients.</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <strong>Manager, Reporting & Analytics</strong> — Classmates.com (2007–2013)
+          <ul>
+            <li>Led analytics for a high-traffic site; personalization, A/B testing, and revenue reporting.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <div class="section">
-        <h2>Recent Projects</h2>
-        <ul>
-            <li>Deployed enterprise cloud data warehouse reducing reporting errors by 50%.</li>
-            <li>Built self-service BI dashboards for executives and operational teams.</li>
-            <li>Implemented data quality standards and governance frameworks.</li>
-        </ul>
-    </div>
+    <section id="highlights" class="card">
+      <h3>Selected Highlights</h3>
+      <ul>
+        <li><strong>Governance at Scale:</strong> Purview catalog & lineage, clear ownership, audit-ready docs.</li>
+        <li><strong>Risk & Fraud Analytics:</strong> KRIs (chargebacks, KYC funnels), anomaly detection, prevention tactics.</li>
+        <li><strong>Modern Stack:</strong> dbt/Airflow/Snowflake rollout, standardized KPIs, self-service analytics.</li>
+        <li><strong>Experimentation:</strong> A/B testing programs with clear goals & decision-ready readouts.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h3>Contact</h3>
+      <p>Email is best. I’m open to remote roles in Analytics Leadership, BI Strategy, and Data Governance.</p>
+      <ul>
+        <li>Email: <a href="mailto:julijhunt@gmail.com">julijhunt@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/julianne-joyce-hunt-85ab082" target="_blank" rel="noopener">linkedin.com/in/julianne-joyce-hunt-85ab082</a></li>
+        <li>Site: <a href="https://JulianneJoyceHunt.github.io" target="_blank" rel="noopener">JulianneJoyceHunt.github.io</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Julianne Joyce-Hunt. Built with plain HTML/CSS.
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
