@@ -3,174 +3,122 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Julianne Joyce‑Hunt — Resume</title>
-  <meta name="description" content="Resume for Julianne Joyce‑Hunt — Director / Senior Manager of Analytics, Business Intelligence, and Data Strategy." />
+  <title>Résumé — Julianne Joyce-Hunt</title>
   <style>
-    :root{
-      --bg:#0b1020; --bg-2:#0f1430; --ink:#eef1ff; --muted:#b7c0ff; --card:#121733;
-      --ring:rgba(122,162,255,.35); --accent:#7aa2ff; --radius:16px; --shadow:0 10px 30px rgba(0,0,0,.25);
-      --max:960px;
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0}
-    body{
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-      background:linear-gradient(180deg,var(--bg),var(--bg-2) 50%, #0a0e22 100%);
-      color:var(--ink);
-      line-height:1.6;
-      -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
-    }
-    a{color:var(--accent); text-decoration:none}
-    a:hover{text-decoration:underline}
-    .wrap{max-width:var(--max); margin:0 auto; padding:28px}
-
-    header{display:flex; flex-wrap:wrap; gap:12px; align-items:flex-start; justify-content:space-between; margin-bottom:16px}
-    .id h1{margin:0; font-size:1.8rem}
-    .id p{margin:2px 0 0; color:var(--muted)}
-    .actions{display:flex; gap:10px; align-items:center}
-    .btn{border:1px solid var(--ring); background:rgba(255,255,255,.05); color:var(--ink); border-radius:12px; padding:8px 12px; font-weight:600}
+    :root{ --bg:#0b1020; --bg2:#0f1430; --ink:#eef1ff; --muted:#b7c0ff; --ring:rgba(122,162,255,.35); --radius:16px; --shadow:0 10px 30px rgba(0,0,0,.25); --max:960px }
+    *{box-sizing:border-box} html,body{margin:0}
+    body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background:linear-gradient(180deg,var(--bg),var(--bg2) 50%, #0a0e22 100%);color:var(--ink);line-height:1.6}
+    a{color:#7aa2ff;text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:var(--max);margin:0 auto;padding:28px}
+    .top{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:16px}
+    .btn{border:1px solid var(--ring);background:rgba(255,255,255,.05);color:var(--ink);border-radius:12px;padding:8px 12px;font-weight:600}
     .btn:hover{background:rgba(255,255,255,.08)}
-
-    .card{background:linear-gradient(145deg, rgba(255,255,255,.03), rgba(255,255,255,.01)); border:1px solid rgba(255,255,255,.12); border-radius:var(--radius); padding:20px; box-shadow:var(--shadow); margin-bottom:14px}
-    h2{margin:0 0 10px; font-size:1.15rem}
-    ul{margin:8px 0 0 20px}
-    li{margin:6px 0}
-    .two-col{display:grid; grid-template-columns:repeat(12,1fr); gap:16px}
-    .col-6{grid-column:span 6}
-
-    /* Print styles: clean white PDF */
-    @media print{
-      body{background:white; color:#111}
-      .card{background:white; border:1px solid #e6e9f5; box-shadow:none}
-      a{color:#1027b3; text-decoration:none}
-      header .actions{display:none}
-      .wrap{padding:0.5in}
-    }
+    .card{background:linear-gradient(145deg,rgba(255,255,255,.03),rgba(255,255,255,.01));border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);margin-bottom:14px}
+    h1{margin:0;font-size:1.6rem} .muted{color:var(--muted)}
+    ul{margin:8px 0 0 20px} li{margin:6px 0}
+    @media print{body{background:white;color:#111}.card{background:white;border:1px solid #e6e9f5;box-shadow:none}.btn{display:none}.wrap{padding:0.5in}}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <header>
-      <div class="id">
-        <h1>Julianne Joyce‑Hunt</h1>
-        <p>Lynnwood, WA • 425‑422‑2027 • <a href="mailto:julijhunt@gmail.com">julijhunt@gmail.com</a> • <a href="https://www.linkedin.com/in/julianne-joyce-hunt-85ab082" target="_blank" rel="noopener">linkedin.com/in/julianne-joyce-hunt-85ab082</a> • <a href="https://JulianneJoyceHunt.github.io" target="_blank" rel="noopener">JulianneJoyceHunt.github.io</a></p>
+    <div class="top">
+      <div>
+        <h1>Julianne Joyce-Hunt</h1>
+        <div class="muted">Lynnwood, WA • <a href="mailto:julijhunt@gmail.com">julijhunt@gmail.com</a> • <a href="https://www.linkedin.com/in/julianne-joyce-hunt-85ab082" target="_blank" rel="noopener">LinkedIn</a> • <a href="/">Home</a></div>
       </div>
-      <div class="actions">
-        <a class="btn" href="#" onclick="window.print();return false;">Print / Save as PDF</a>
-        <a class="btn" href="mailto:julijhunt@gmail.com">Email</a>
+      <div>
+        <!-- Upload your files to /assets/, then these will work -->
+        <a class="btn" href="/assets/Julianne_Joyce-Hunt_Resume.pdf" target="_blank" rel="noopener">Download PDF</a>
+        <a class="btn" href="/assets/Julianne_Joyce-Hunt_Resume.docx" target="_blank" rel="noopener">Download DOCX</a>
       </div>
-    </header>
+    </div>
 
-    <section class="card" id="summary">
+    <section class="card">
       <h2>Director of Analytics | Business Intelligence Leader | Data Strategy & Governance Expert</h2>
-      <p>Proven leader in transforming raw data into actionable strategy that drives growth, compliance, and operational excellence. Over 15 years of experience spanning healthcare, fintech, SaaS, and enterprise technology, leading BI, analytics, and governance programs that deliver measurable impact. Adept at building high‑performing teams, architecting cloud‑based data solutions, and implementing governance frameworks that ensure accuracy, transparency, and trust in enterprise data. Skilled at partnering with executives and cross‑functional leaders to align analytics with organizational goals, improve decision‑making, and prepare organizations for the future of AI‑driven insights.</p>
+      <p>Proven leader in transforming raw data into actionable strategy that drives growth, quality, and operational excellence. 15+ years leading BI, analytics, and governance programs across healthcare, fintech, SaaS, and enterprise technology. Builds high-performing teams, architecting cloud data solutions and governance frameworks that ensure accuracy, transparency, and trust. Partners with executives and cross-functional leaders to align analytics with goals and prepare organizations for AI-driven insights.</p>
     </section>
 
-    <section class="card" id="core">
-      <h2>Core Competencies</h2>
-      <div class="two-col">
-        <div class="col-6">
-          <ul>
-            <li>Data Strategy & Roadmap Development</li>
-            <li>Enterprise BI Platforms (Power BI, Tableau, Looker)</li>
-            <li>Cloud Data Warehousing (Azure Synapse, Snowflake, Redshift, Databricks)</li>
-            <li>Advanced SQL, Python, R for Data Analysis & Automation</li>
-            <li>KPI Definition, Dashboard Design, Data Storytelling</li>
-          </ul>
-        </div>
-        <div class="col-6">
-          <ul>
-            <li>Data Governance, Cataloging, & Metadata Management</li>
-            <li>ETL Development (dbt, Matillion, Informatica)</li>
-            <li>Regulatory Reporting (HIPAA, GDPR, KYC/AML frameworks)</li>
-            <li>Stakeholder Engagement & Executive Communication</li>
-            <li>AI/ML Integration for Business Processes</li>
-          </ul>
-        </div>
-      </div>
+    <section class="card">
+      <h3>Core Competencies</h3>
+      <ul>
+        <li>Data Strategy & Roadmaps • KPI Definition • Data Storytelling</li>
+        <li>Enterprise BI (Power BI, Tableau, Looker) • Cloud DW (Azure, Snowflake, Redshift, Databricks)</li>
+        <li>Advanced SQL, Python, R • ETL (dbt, Matillion, Informatica) • Data Governance & Cataloging</li>
+        <li>Regulatory Reporting (HIPAA, GDPR, KYC/AML) • Executive Communication • AI/ML Integration</li>
+      </ul>
     </section>
 
-    <section class="card" id="experience">
-      <h2>Professional Experience</h2>
-
-      <h3>Collaborative Solutions, LLC — Business Intelligence Manager <span class="meta">(Sep 2021 – Jun 2024, Reston, VA)</span></h3>
+    <section class="card">
+      <h3>Professional Experience</h3>
+      <h4>Collaborative Solutions, LLC — Business Intelligence Manager (2021–2024)</h4>
       <ul>
-        <li>Led cloud data warehouse deployment on Azure, boosting data reliability and reducing reporting errors across business units.</li>
-        <li>Managed cross‑functional BI team delivering dashboards, ML prototypes, and governance processes.</li>
-        <li>Implemented metadata standards and data cataloging to increase transparency for self‑service BI.</li>
-        <li>Improved data retrieval speeds by 52% through pipeline and architecture optimization.</li>
-        <li>Championed governance standards, data ownership roles, and lightweight compliance frameworks.</li>
+        <li>Led cloud data warehouse deployment on Azure, improving reliability and reducing reporting errors.</li>
+        <li>Managed cross-functional BI team delivering dashboards, ML prototypes, and governance processes.</li>
+        <li>Implemented metadata standards and cataloging for self-service BI and transparency.</li>
+        <li>Improved data retrieval speeds by 52% via pipeline optimization and architecture tuning.</li>
       </ul>
 
-      <h3>Julianne Joyce‑Hunt Consulting — Owner / Analytics & Reporting Consultant <span class="meta">(Oct 2013 – Present, Lynnwood, WA; Full‑Time Since 2024)</span></h3>
+      <h4>Julianne Joyce-Hunt Consulting — Owner / Analytics & Reporting Consultant (2013–present; full-time since 2024)</h4>
       <ul>
-        <li>Designed and implemented BI solutions, dashboards, and automated reporting for clients in healthcare, SMB, and non‑profit sectors.</li>
-        <li>Built a custom reporting automation reducing a client’s preparation time by 100+ hours annually.</li>
-        <li>Delivered governance playbooks to improve data quality, compliance posture, and decision‑readiness.</li>
+        <li>Delivered BI solutions, dashboards, and automated reporting across healthcare, SMB, and non-profit.</li>
+        <li>Built reporting automation reducing a client’s prep time by 100+ hours annually.</li>
+        <li>Created governance playbooks improving data quality and decision-readiness.</li>
       </ul>
 
-      <h3>Launch Consulting — Senior Data Analyst <span class="meta">(May 2021 – Sep 2021, Seattle, WA)</span></h3>
+      <h4>Launch Consulting — Senior Data Analyst (2021)</h4>
       <ul>
-        <li>Scrum Master for analytics initiatives, coordinating sprints and stakeholder feedback loops.</li>
+        <li>Scrum Master for analytics initiatives; coordinated sprints and stakeholder feedback.</li>
         <li>Supported enterprise BI modernization and secure cloud migration reporting.</li>
       </ul>
 
-      <h3>Premera Blue Cross — Senior Business Analyst <span class="meta">(Sep 2018 – Mar 2021, Mountlake Terrace, WA)</span></h3>
+      <h4>Premera Blue Cross — Senior Business Analyst (2018–2021)</h4>
       <ul>
-        <li>Built a digital product data warehouse integrating 23+ internal and external sources.</li>
-        <li>Produced executive‑facing Tableau and Looker dashboards driving product and operational decisions.</li>
+        <li>Built digital product data warehouse integrating 23+ sources; produced executive dashboards.</li>
         <li>Partnered with IT, Legal, and Compliance to maintain HIPAA/GDPR alignment across BI platforms.</li>
       </ul>
 
-      <h3>Comcast (Parmesoft Inc.) — Business Analysis Consultant <span class="meta">(Feb 2017 – Sep 2018, Seattle, WA)</span></h3>
+      <h4>Comcast — Business Analysis Consultant (2017–2018)</h4>
       <ul>
-        <li>Managed BI platform operations, data warehouse optimization, and reporting automation.</li>
-        <li>Designed cost‑efficient reporting templates, streamlining delivery and reducing manual workload.</li>
+        <li>Managed BI platform operations, DWH optimization, and reporting automation.</li>
+        <li>Designed cost-efficient reporting templates, reducing manual workload and improving quality.</li>
       </ul>
 
-      <h3>Getty Images (Insight Global) — Business Intelligence Consultant <span class="meta">(Mar 2016 – Feb 2017, Seattle, WA)</span></h3>
+      <h4>Getty Images — Business Intelligence Consultant (2016–2017)</h4>
       <ul>
-        <li>Delivered universal analytics tag deployment for global properties, improving tracking accuracy.</li>
-        <li>Created templates for capturing and managing analytics requirements and documentation.</li>
+        <li>Implemented universal analytics tag governance; improved tracking accuracy.</li>
+        <li>Created requirement templates for analytics documentation and standardization.</li>
       </ul>
 
-      <h3>Starbucks — Senior Business Reporting Analyst <span class="meta">(Oct 2013 – Feb 2016, Seattle, WA)</span></h3>
+      <h4>Starbucks — Senior Business Reporting Analyst (2013–2016)</h4>
       <ul>
-        <li>Automated compliance reporting, reducing delivery from 8 weeks to 4 hours.</li>
-        <li>Built dynamic Power BI reports with interactive filtering for stakeholder self‑service.</li>
+        <li>Automated compliance reporting; reduced delivery time from 8 weeks to 4 hours.</li>
+        <li>Built dynamic Power BI reports enabling stakeholder self-service.</li>
       </ul>
 
-      <h3>Society Consulting — Principal Consultant <span class="meta">(Feb 2013 – Oct 2013, Bellevue, WA)</span></h3>
+      <h4>Society Consulting — Principal Consultant (2013)</h4>
       <ul>
-        <li>Delivered BI and analytics strategies to mid‑market and enterprise clients, focusing on adoption and scalability.</li>
+        <li>Delivered BI and analytics strategies to enterprise clients with focus on adoption and scale.</li>
       </ul>
 
-      <h3>Classmates.com — Manager, Reporting & Analytics <span class="meta">(Jan 2007 – Feb 2013, Seattle, WA)</span></h3>
+      <h4>Classmates.com — Manager, Reporting & Analytics (2007–2013)</h4>
       <ul>
         <li>Directed analytics for personalization and experimentation, increasing engagement and sales.</li>
-        <li>Integrated unstructured and structured data for advanced behavioral analysis and reporting.</li>
+        <li>Integrated unstructured and structured data for advanced behavioral analysis.</li>
       </ul>
     </section>
 
-    <section class="card" id="education">
-      <h2>Education</h2>
+    <section class="card">
+      <h3>Education & Certifications</h3>
       <p><strong>B.S., Psychology</strong> — Specialization in Research & Statistics; Minor in Business Administration — Washington State University (Pullman, WA)</p>
-    </section>
-
-    <section class="card" id="certs">
-      <h2>Certifications</h2>
       <p>TDWI BI Professional • Salesforce Admin • Tableau • MicroStrategy • Adobe Analytics • Google Analytics • Azure Solutions • Scrum Team Coach</p>
     </section>
 
-    <section class="card" id="skills">
-      <h2>Technical Skills</h2>
-      <p>SQL, Python, R, SAS, PowerShell • Power BI, Tableau, Looker, MicroStrategy • Azure Synapse, Snowflake, Databricks, Redshift • dbt, Matillion, Informatica • Collibra, Alation, Microsoft Purview • Google Analytics, Adobe Analytics • AI/ML Tools: Azure ML, Alteryx, ChatGPT</p>
+    <section class="card">
+      <h3>Technical Skills</h3>
+      <p>SQL, Python, R, SAS, PowerShell • Power BI, Tableau, Looker, MicroStrategy • Azure Synapse, Snowflake, Databricks, Redshift • dbt, Matillion, Informatica • Collibra, Alation, Microsoft Purview • Google Analytics, Adobe Analytics • AI/ML Tools</p>
     </section>
 
-    <footer class="card" style="text-align:center">
-      <small>© <span id="y"></span> Julianne Joyce‑Hunt • This page prints cleanly to PDF (Use: File → Print → Save as PDF)</small>
-    </footer>
+    <p class="muted">Need a PDF or Word copy? Use the buttons at the top, or download: <a href="/assets/Julianne_Joyce-Hunt_Resume.pdf" target="_blank">PDF</a> · <a href="/assets/Julianne_Joyce-Hunt_Resume.docx" target="_blank">DOCX</a></p>
   </div>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
